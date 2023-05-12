@@ -1,0 +1,34 @@
+name: shuqi
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  carousel_slider:
+  cached_network_image:
+  shared_preferences:
+  webview_flutter:
+  share:
+  fluttertoast:
+  battery:
+  intl:
+  device_info:
+  je_kit:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - img/
+   - mock/
